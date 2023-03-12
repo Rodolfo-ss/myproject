@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500&display=swap');
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    font-family: 'roboto';
+}
+
+.header .logo h1{
+    color: rgb(246, 102, 102);
+}
+
+.header .logo h1:hover{
+    transition: 0.7s;
+    color: rgb(247, 0, 0);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+}
+
+.header .menu{
+    display: flex;
+    margin: 20px;
+    font-family: 'roboto';
+    font-size: 25px;
+}
+
+.header .menu a:hover{
+    transition: 0.2s;
+    color: rgb(246, 102, 102);
+}
+
+.header .menu li{
+    margin: 20px;
+}
+ 
+.hide .seta{
+    width: 30px;
+    height: 70px;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: -900px;
+    animation: arrow 0.7s infinite alternate ease-in-out;
+}
+
+@-webkit-keyframes arrow {
+    0% { -webkit-transform: translateY(0);}
+    100% { -webkit-transform: translateY(0.6em);;
+    opacity: 0.9;}
+}
+
+
+.hide h2 a{
+    color: rgb(246, 102, 102);
+    font-size: 70px;
+    position: absolute;
+    text-align: center;
+    margin: 70px;   
+    bottom: 490px;
+    left: -15px;
+    font-family: 'public sans'; 
+}
+
+.hide p{
+    color: rgb(246, 102, 102);
+    font-size: 27px;
+    position: absolute;
+    width: 500px;
+    text-align: center;
+    line-height: 34px;
+    margin: 60px;   
+    bottom: 310px;
+    left: 80px;
+    font-family: 'public sans'; 
+}
+
+.hide .contato h3{
+    color: rgb(246, 102, 102);
+}
+
+.hide .contato {
+    background-color:rgb(251, 215, 11);
+    margin: 20px;
+    position: absolute;
+    padding: 20px;
+    border-radius: 20px;
+    width: 400px;
+   bottom: -70px;
+   margin: 180px;
+}
+
+.hide .contato h3{
+    font-size: 24px;
+}
+
+.hide .contato input{
+    margin: 10px;
+    width: 320px;
+}
+
+.hide img{
+    width: 75%;
+    margin-left: 430px;
+    margin-bottom: -280px;
+}
+
+.project .metodo{
+    margin: 200px;
+  margin-left: 170px;
+  text-align: center;
+}
+
+.project h4{ 
+    font-size: 30px;
+    margin: 30px;
+}
+
+.container .ideias{
+    display: flex;
+   font-size: 30px;
+   background-color:rgb(234, 213, 25);
+}
+
+.container .ideias p{
+    margin: 30px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.container .ideas2 img{
+    display: flex;
+    width: 30%;
+    height: 30%;
+}
+
+.rodape img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    opacity: 0.6;
+}
+
+.rodape p{
+    position: absolute ;
+    bottom: -2300px;
+    font-size: 24px;
+    margin-left: 800px ;
+    font-family: 'roboto';
+}
+
+.rodape .redes{
+    position: absolute;
+    bottom: -2360px;
+    left: 820px;
+}
+
+.rodape .redes i{
+    margin: 20px;
+    font-size: 30px;
+    
+}
